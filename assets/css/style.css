@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #fff;
+    --openF: 'Open Sans', sans-serif;
+    --btn: #fd4f32;
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* header css start */
+
+header{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+nav i{
+    color: var(--white);
+    font-size: 24px;
+}
+
+header h1{
+font: 300 52px var(--openF);
+letter-spacing: 2px;
+color: #ffffff;
+text-align: center;
+margin-top: 210px;
+}
+
+header input{
+font: 400 16px var(--openF);
+letter-spacing: 1px;
+color: #8b8b8b;
+border: none;
+outline: none;
+width: 325px;
+padding: 13px 0 13px 15px;
+}
+
+header button{
+    font: 700 16px var(--openF);
+letter-spacing: 1px;
+color: #ffffff;
+background-color: var(--btn);
+border: none;
+outline: none;
+padding: 13px 50px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 200px;
+}
+
+/* content css start */
+
+#content{
+    background-color: #eeeeee;
+    padding-top: 58px;
+}
+
+
+
+#content h2{
+font: 400 16px var(--openF);
+letter-spacing: 0px;
+color: #323232;
+padding-top: 18px;
+}
+
+#content p{
+    font: 400 15px var(--openF);
+letter-spacing: 0px;
+color: #050404;
+padding-bottom: 18px;
+
+}
+
+.countries{
+    background-color: #ffffff;
+}
+
+.countries{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 69px;
+}
+
+.countries img{
+    width: 237px;
+    height: 198px;
+}
+
+.countries h2{
+font: 400 14px var(--openF);
+letter-spacing: 0px;
+color: #323232;
+padding-left: 20px;
+margin-bottom: 18px;
+}
+
+
+.countries p{
+font: 400 13px var(--openF);
+width: 230px;
+line-height: 19px;
+color: #696969;
+padding: 0 0 18px 20px;
+}
+
+#information{
+    background-color: #ffffff;
+}
+
+
+#information h1{
+    font: 300 52px var(--openF);
+    letter-spacing: 2px;
+    color: #323232;
+    padding-top: 79px;
+}
+
+#text{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#text div{
+    padding-right: 49px;
+}
+
+#text h2{
+    padding-top: 69px;
+}
+
+#text p{
+    margin-top: 18px;
+}
+
+#inbox h2{
+    font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+margin-top: 76px;
+}
+
+
+#inbox input{
+    font: 400 16px var(--openF);
+letter-spacing: 1px;
+color: #8b8b8b;
+border: none;
+outline: none;
+width: 325px;
+padding: 13px 0 13px 15px;
+background-color: #eeeeee;
+}
+
+#inbox button{
+    font: 700 16px var(--openF);
+letter-spacing: 1px;
+color: #ffffff;
+background-color: var(--btn);
+border: none;
+outline: none;
+padding: 13px 50px;
+}
+
+/* footer css start */
+
+footer{
+    background-color: #eeeeee;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    max-height: 72px;
+}
+
+footer ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 0 0 30px 18px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+
+footer p{
+    font-size: 14px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
